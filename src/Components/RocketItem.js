@@ -18,9 +18,8 @@ const RocketItem = (props) => {
         <h2 className="text-2xl font-bold font-important">{rocket.name}</h2>
         <p className="text-base font-normal">{rocket.description}</p>
         <div className="text-base font-normal">
-          { (!rocket.reserved)
-            ? <button onClick={clickHandler} type="button" className="bg-blue-600 text-white p-2 rounded hover:bg-white hover:text-blue-600">Reserve Rocket</button>
-            : <button onClick={clickHandler} type="button" className="bg-gray-500 text-black p-2 rounded hover:bg-blue-600 hover:text-white">Cancel Reserve Rocket</button>}
+          { (!rocket.reserved) && <button onClick={clickHandler} type="button" className="bg-blue-600 text-white p-2 rounded hover:bg-white hover:text-blue-600">Reserve Rocket</button>}
+          {(rocket.reserved) && <button onClick={clickHandler} type="button" className="bg-gray-500 text-black p-2 rounded hover:bg-blue-600 hover:text-white">Cancel Reserve Rocket</button>}
         </div>
       </div>
     </li>

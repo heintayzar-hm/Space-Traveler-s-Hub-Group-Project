@@ -1,5 +1,12 @@
+import RocketProfile from '../RocketProfile';
+
 const Profile = () => (
-  <h1>Profile</h1>
+  <main className="grid sm:grid-cols-2 grid-cols-1">
+    <div>Missions</div>
+    <div>
+      <RocketProfile />
+    </div>
+  </main>
 );
 
 export default Profile;
