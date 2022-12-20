@@ -3,18 +3,28 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 // Actions
 import {
-  FETCH_ROCKET, BOOK_ROCKET, apiState, rocketApiUrl,
+  FETCH_ROCKET, RESERVE_ROCKET, apiState, rocketApiUrl,
 } from '../constant';
 //
 // eslint-disable-next-line no-unused-vars
 const [success, waiting, fail] = apiState;
 const initialState = [];
+
+// handle functions
+const handleReserveRocket = (state, payload) => {
+  const newState = state.map((rocket) => {
+    if (rocket.id !== payload) return rocket;
+    return { ...rocket, reserved: !rocket.reserved };
+  });
+  return newState;
+};
+
 const rocketsReducer = (state = initialState, action) => {
   switch (action.type) {
     case FETCH_ROCKET + success:
       return action.payload;
-    case BOOK_ROCKET + success:
-      return action.payload;
+    case RESERVE_ROCKET:
+      return handleReserveRocket(state, action.payload);
     default:
       return state;
   }
@@ -38,6 +48,13 @@ const fetchRockets = createAsyncThunk(FETCH_ROCKET, async () => {
   });
   return (rockets);
 });
+
+const updateReserve = (payload) => ({
+  type: RESERVE_ROCKET,
+  payload,
+});
+
 export {
   fetchRockets,
+  updateReserve,
 };
