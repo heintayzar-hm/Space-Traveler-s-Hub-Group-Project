@@ -31,9 +31,9 @@ const Missions = () => {
             <td>{item.description}</td>
             <td>
               {item.reserved ? (
-                <button type="button" className="member">ACTIVE MEMBER</button>
+                <span className="member">ACTIVE MEMBER</span>
               ) : (
-                <button type="button" className="inactive">NOT A MEMBER</button>
+                <span className="inactive">NOT A MEMBER</span>
               )}
             </td>
             <td>
