@@ -25,7 +25,26 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Space Traveler</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Lato&family=Sono:wght@200;300;400;500&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:ital@1&family=Sono:wght@200;300;400;500&display=swap" rel="stylesheet">
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          normal: ['"IBM Plex Sans"','"serif"'],
+          important:  ['"Playfair Display"','"serif"'],
+        }
+      }
+    }
+  }
+</script>
+
+<title>Space Traveler</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
