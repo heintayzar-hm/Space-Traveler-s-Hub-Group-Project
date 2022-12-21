@@ -188,11 +188,10 @@ Example:
 - Twitter: [@Hein Tay](https://twitter.com/heintayzarhm)
 - LinkedIn: [Hein Tay](https://www.linkedin.com/in/hein-tay-zar)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Enning Festus**
+- GitHub: [@Enning94](https://github.com/Enning94)
+- Twitter: [@nana_akyerefi](https://twitter.com/nana_akyerefi)
+- LinkedIn: [Enning Festus](https://linkedin.com/in/enning-festus)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
