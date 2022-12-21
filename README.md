@@ -57,17 +57,22 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [space_traveller] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[space__traveller]** is an application where you can see and update real live data of space crafts.
 
 ## 🛠 Built With <a name="built-with"></a>
+- Html
+- Css
+- Javascript
+- Tailwindcss
+- React
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> React
 
 <details>
   <summary>Client</summary>
@@ -76,29 +81,15 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> Key Features
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Missions]**
+- **[Rockets]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,7 +99,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+![](https://media.giphy.com/media/8g0tNLBXOnEl9rLhXR/giphy.gif)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,48 +118,37 @@ In order to run this project you need:
 <!--
 Example command:
 
-```sh
- gem install rails
-```
- -->
+-->
+
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/Enning94/Space-Traveler-s-Hub-Group-Project.git
+  cd Space-Traveler-s-Hub-Group-Project
 ```
---->
+
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
+
 
 ```sh
-  cd my-project
-  gem install
+  npm install
 ```
---->
+
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
 ```sh
-  rails server
+  npm start
 ```
---->
 
 ### Run tests
 
@@ -202,17 +182,16 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Hein Tay Zar**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Hein Tay](https://github.com/heintayzar-hm)
+- Twitter: [@Hein Tay](https://twitter.com/heintayzarhm)
+- LinkedIn: [Hein Tay](https://www.linkedin.com/in/hein-tay-zar)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Enning Festus**
+- GitHub: [@Enning94](https://github.com/Enning94)
+- Twitter: [@nana_akyerefi](https://twitter.com/nana_akyerefi)
+- LinkedIn: [Enning Festus](https://www.linkedin.com/in/enningfestus/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

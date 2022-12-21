@@ -16,24 +16,24 @@ const Missions = () => {
   };
 
   return (
-    <table className="wrapper">
+    <table className="wrapper mt-10">
       <thead>
         <tr>
-          <th>Mission</th>
-          <th className="description">Description</th>
-          <th>Status</th>
+          <th className="font-important">Mission</th>
+          <th className="description font-important">Description</th>
+          <th className="font-important">Status</th>
         </tr>
       </thead>
       <tbody>
         {missions.map((item) => (
           <tr key={item.id} className="tr-row">
-            <td className="mission-name">{item.name}</td>
-            <td>{item.description}</td>
+            <td className="mission-name font-normal">{item.name}</td>
+            <td className="font-normal">{item.description}</td>
             <td>
               {item.reserved ? (
-                <span className="member">ACTIVE MEMBER</span>
+                <span className="member font-normal">ACTIVE MEMBER</span>
               ) : (
-                <span className="inactive">NOT A MEMBER</span>
+                <span className="inactive font-normal">NOT A MEMBER</span>
               )}
             </td>
             <td>
@@ -42,7 +42,7 @@ const Missions = () => {
                   type="button"
                   onClick={clickHandler}
                   id={item.id}
-                  className="join-btn"
+                  className="join-btn font-normal"
                 >
                   Join Mission
                 </button>
@@ -52,7 +52,7 @@ const Missions = () => {
                   type="button"
                   onClick={clickHandler}
                   id={item.id}
-                  className="leave-btn"
+                  className="leave-btn font-normal"
                 >
                   Leave Mission
                 </button>
