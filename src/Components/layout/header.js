@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <>
       <nav className=" grid grid-cols-5 p-3">
-        <h1 className=" col-span-2 m-auto flex justify-center w-full">
+        <div className=" col-span-2 m-auto flex justify-center w-full">
 
           <div className="flex w-full justify-around">
             <NavLink
@@ -42,7 +42,7 @@ const Header = () => {
 
             </NavLink>
           </div>
-        </h1>
+        </div>
         <div className="col-span-3 flex justify-center">
           <ul className="grid grid-cols-3 w-full">
             {links.map((link) => (
