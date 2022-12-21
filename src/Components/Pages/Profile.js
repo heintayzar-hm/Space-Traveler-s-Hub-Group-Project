@@ -1,5 +1,9 @@
+import MissionProfile from '../missionProfile';
+
 const Profile = () => (
-  <h1>Profile</h1>
+  <div>
+    <MissionProfile />
+  </div>
 );
 
 export default Profile;
