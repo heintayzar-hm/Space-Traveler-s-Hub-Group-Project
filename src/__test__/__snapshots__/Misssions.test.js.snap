@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly Renders page correctly 1`] = `
+<div>
+  <table
+    class="wrapper mt-10"
+  >
+    <thead>
+      <tr>
+        <th
+          class="font-important"
+        >
+          Mission
+        </th>
+        <th
+          class="description font-important"
+        >
+          Description
+        </th>
+        <th
+          class="font-important"
+        >
+          Status
+        </th>
+        <th>
+           
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;
