@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly Renders page correctly 1`] = `
+<div>
+  <main
+    class="p-10"
+  >
+    <ul
+      class="grid grid-cols-1 gap-4"
+    />
+  </main>
+</div>
+`;

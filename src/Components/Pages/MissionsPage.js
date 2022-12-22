@@ -22,6 +22,7 @@ const Missions = () => {
           <th className="font-important">Mission</th>
           <th className="description font-important">Description</th>
           <th className="font-important">Status</th>
+          <th> </th>
         </tr>
       </thead>
       <tbody>
@@ -60,7 +61,6 @@ const Missions = () => {
             </td>
           </tr>
         ))}
-        ;
       </tbody>
     </table>
   );

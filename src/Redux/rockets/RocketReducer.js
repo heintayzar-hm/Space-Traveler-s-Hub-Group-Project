@@ -1,6 +1,5 @@
 // import
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import axios from 'axios';
 // Actions
 import {
   FETCH_ROCKET, RESERVE_ROCKET, apiState, rocketApiUrl,
@@ -34,8 +33,9 @@ export default rocketsReducer;
 
 // Creators
 const fetchRockets = createAsyncThunk(FETCH_ROCKET, async () => {
-  const response = await axios.get(rocketApiUrl);
-  const rockets = response.data.map((rocket) => {
+  const response = await fetch(rocketApiUrl);
+  const data = await response.json();
+  const rockets = data.map((rocket) => {
     const name = rocket.rocket_name;
     const image = rocket.flickr_images[0];
     const reserved = false;
