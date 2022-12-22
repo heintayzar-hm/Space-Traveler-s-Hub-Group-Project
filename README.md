@@ -57,6 +57,8 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
+![](https://media.giphy.com/media/8g0tNLBXOnEl9rLhXR/giphy.gif)
+
 # 📖 [space_traveller] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
