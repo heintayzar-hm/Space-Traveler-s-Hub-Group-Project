@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly Renders page correctly 1`] = `
+<div>
+  <main
+    class="grid sm:grid-cols-2 grid-cols-1"
+  >
+    <div>
+      <div
+        class="pt-3"
+      >
+        <h2
+          class="text-xl font-semibold font-important"
+        >
+          No Missions yet.
+        </h2>
+        <div>
+          <ul
+            class="grid grid-cols-1 my-4 mx-2"
+          />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="pt-3"
+      >
+        <h2
+          class="text-xl font-semibold font-important"
+        >
+          No Rockets yet.
+        </h2>
+        <ul
+          class="grid grid-cols-1 my-4 mx-2"
+        />
+      </div>
+    </div>
+  </main>
+</div>
+`;
