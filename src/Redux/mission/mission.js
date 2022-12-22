@@ -1,5 +1,4 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import axios from 'axios';
 
 const Url = 'https://api.spacexdata.com/v3/missions';
 
@@ -29,8 +28,9 @@ const missionReducer = (state = initialState, action) => {
 export default missionReducer;
 
 const fetchMissions = createAsyncThunk(FETCH_MISSION, async () => {
-  const response = await axios.get(Url);
-  const missions = response.data.map((mission) => {
+  const response = await fetch(Url);
+  const data = await response.json();
+  const missions = data.map((mission) => {
     const name = mission.mission_name;
     const { description } = mission;
     const id = mission.mission_id;

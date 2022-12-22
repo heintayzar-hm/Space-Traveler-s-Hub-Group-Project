@@ -13,7 +13,7 @@ const Rockets = () => {
   }, [dispatch, rockets.length]);
   return (
     <main className="p-10">
-      <ul className="grid grid-cols-1 gap-5">
+      <ul className="grid grid-cols-1 gap-4">
         {
       rockets.map((rocket) => (<RocketItem key={rocket.id} rocket={rocket} />))
      }
