@@ -6,8 +6,18 @@ const MissionProfile = () => {
     (mission) => mission.reserved === true,
   );
   return (
-    <div className="">
-      <h2 className="text-2xl font-bold font-important">My Missions</h2>
+    <div className="pt-3">
+      {!(reservedMissions.length === 0) ? (
+        <>
+          <h2 className="text-2xl font-bold font-important">My Missions</h2>
+        </>
+      )
+        : (
+          <>
+            <h2 className="text-xl font-semibold font-important">No Missions yet.</h2>
+
+          </>
+        )}
       <div>
         <ul className="grid grid-cols-1 my-4 mx-2">
           {reservedMissions.map((mission) => <li className="p-5 text-base font-normal border-brown-200 border" key={mission.id}>{mission.name}</li>)}

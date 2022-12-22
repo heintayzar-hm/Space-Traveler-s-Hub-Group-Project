@@ -22,10 +22,10 @@ const Header = () => {
 
   return (
     <>
-      <nav className=" grid grid-cols-5 p-3">
+      <nav className=" grid grid-cols-5 p-3 items-center border-b border-black">
         <div className=" col-span-2 m-auto flex justify-center w-full">
 
-          <div className="flex w-full justify-around">
+          <div className="flex w-full justify-start">
             <NavLink
               to={links[0].path}
               data-testid="link-item"
@@ -36,7 +36,7 @@ const Header = () => {
             <NavLink
               to={links[0].path}
               data-testid="link-item"
-              className=""
+              className="pl-5"
             >
               <h1 className="md:text-2xl hover:text-blue-600 hidden sm:block text-xl font-bold font-italics">Space Travelers Hub</h1>
 
@@ -44,9 +44,9 @@ const Header = () => {
           </div>
         </div>
         <div className="col-span-3 flex justify-center">
-          <ul className="grid grid-cols-3 w-full">
+          <ul className="flex justify-end gap-3 w-full">
             {links.map((link) => (
-              <li key={link.id} className="font-normal text-base hover:text-blue-600">
+              <li key={link.id} className="font-normal hover:text-black text-base text-blue-600 flex items-center gap-3">
                 {' '}
                 <NavLink
                   to={link.path}
@@ -55,6 +55,7 @@ const Header = () => {
                 >
                   {link.text}
                 </NavLink>
+                <div className={(link.id === 2) ? 'border border-l bg-slate-400 h-3 w-1' : 'hidden'} />
               </li>
             ))}
           </ul>
