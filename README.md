@@ -61,9 +61,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [space_traveller] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[space__traveller]** is an application where you can see and update real live data of space crafts.
+Space_Traveller is a web application that provides real-time data on space crafts and allows users to update this data. Built using React and utilizing real-time api, this application provides an immersive and up-to-date experience for space enthusiasts and professionals alike.
 
 ## 🛠 Built With <a name="built-with"></a>
 - Html
@@ -99,16 +97,13 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-[SPACE_TRAVELERS-HUB](https://space-travelers-hub-eser.onrender.com)
+[SPACE_TRAVELERS-HUB](https://space-traveler-s-hub-group-project.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
